@@ -5,8 +5,7 @@
 }
 
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    color: white;
 }
 
 .row{
@@ -14,5 +13,35 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
+    text-align: center;
 }
 
+[class*="col-"] {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.primary{
+    background-color: rgb(0, 108, 250);
+}
+
+.nested{
+    background-color: rgb(0, 225, 101);
+    border: none;
+}
+
+.col-6.nest{
+    flex-direction: row;
+    display: flex;
+    gap: 1px;
+}
+
+.row.primary .col-6 .nested{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.fixed-height .row.primary {
+    height: 40px;
+}
