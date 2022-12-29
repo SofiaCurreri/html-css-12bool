@@ -42,6 +42,7 @@
     justify-content: center;
 }
 
-.container.fixed-height .row.primary {
+.container.fixed-height .row.primary,
+.container.offset .fixed-height{
     height: 40px;
 }
