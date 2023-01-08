@@ -17,6 +17,7 @@
     text-align: center;
 }
 
+
 .black{
     background-color: black;
 }
@@ -39,4 +40,17 @@
 
 .pink{
     background-color: rgb(251, 190, 127);
+}
+
+
+.dark-red{
+    background-color: rgb(132, 22, 11);
+}
+
+.red{
+    background-color: rgb(179, 30, 15);
+}
+
+.light-red{
+    background-color: rgb(221, 37, 19);
 }
