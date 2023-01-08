@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    color: white;
+}
+
+.row {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+}
+
+.black{
+    background-color: black;
+}
+
+.dark-green{
+    background-color: rgb(57, 100, 60);
+}
+
+.green{
+    background-color: rgb(78, 138, 73);
+}
