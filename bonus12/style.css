@@ -5,10 +5,13 @@
 }
 
 .container{
+    margin: auto;
+    width: 1000px;
     color: white;
 }
 
 .row{
+    height: 70px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,3 +19,14 @@
     text-align: center;
 }
 
+.black{
+    background-color: black;
+}
+
+.b-green{
+    background-color: rgb(77, 173, 101);
+}
+
+.b-light-green{
+    background-color: rgb(87, 185, 150);
+}
