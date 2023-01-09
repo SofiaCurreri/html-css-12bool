@@ -7,6 +7,7 @@
 .container{
     margin: auto;
     width: 1200px;
+    height: 600px;
 }
 
 .row{
@@ -64,4 +65,24 @@
 
 .sand{
     background-color: rgb(214, 195, 153);
+}
+
+.c-dark-green{
+    background-color: rgb(90, 186, 76);
+}
+
+.c-light-green{
+    background-color: rgb(184, 207, 125);
+}
+
+.c-petrolio{
+    background-color: rgb(34, 112, 118);
+}
+
+.c-sand{
+    background-color: rgb(221, 187, 110);
+}
+
+.aqua{
+    background-color: rgb(55, 173, 185);
 }
