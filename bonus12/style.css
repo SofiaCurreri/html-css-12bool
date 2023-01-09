@@ -6,12 +6,11 @@
 
 .container{
     margin: auto;
-    width: 1000px;
-    color: white;
+    width: 1200px;
 }
 
 .row{
-    height: 70px;
+    height: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -29,4 +28,40 @@
 
 .b-light-green{
     background-color: rgb(87, 185, 150);
+}
+
+.b-dark-green{
+    background-color: rgb(44, 143, 101);
+}
+
+.red{
+    background-color: rgb(230, 0, 0);
+}
+
+.orange-1{
+    background-color: rgb(230, 142, 82);
+}
+
+.orange-2{
+    background-color: rgb(230, 101, 21);
+}
+
+.petrolio{
+    background-color: rgb(0, 108, 141);
+}
+
+.yellow{
+    background-color: rgb(230, 203, 37);
+}
+
+.s-light-blue{
+    background-color: rgb(77, 186, 213) ;
+}
+
+.purple{
+    background-color: rgb(136, 57, 101);
+}
+
+.sand{
+    background-color: rgb(214, 195, 153);
 }
